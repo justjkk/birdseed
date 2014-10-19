@@ -18,6 +18,8 @@ module.exports = {
   GOOGLE_ID:        'app-id',
   GOOGLE_SECRET:    'secret',
 
+  PRACTO_OPENID_URL: 'https://accounts.practo.com',
+
   // Control debug level for modules using visionmedia/debug
   DEBUG: ''
 };

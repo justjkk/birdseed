@@ -26,4 +26,7 @@ angular.module('birdseedApp')
     $scope.loginOauth = function(provider) {
       $window.location.href = '/auth/' + provider;
     };
+    $scope.loginOpenID = function(provider) {
+      $window.location.href = '/auth/' + provider;
+    };
   });

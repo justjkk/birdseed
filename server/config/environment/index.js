@@ -57,7 +57,11 @@ var all = {
     clientID:     process.env.GOOGLE_ID || 'id',
     clientSecret: process.env.GOOGLE_SECRET || 'secret',
     callbackURL:  (process.env.DOMAIN || '') + '/auth/google/callback'
-  }
+  },
+
+  practo: {
+    openIDURL: process.env.PRACTO_OPENID_URL || 'https://accounts.practo.com'
+  },
 };
 
 // Export the config object based on the NODE_ENV
